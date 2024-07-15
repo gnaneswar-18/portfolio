@@ -13,4 +13,6 @@ function shownav() {
         btn.classList='fa-solid fa-bars';
     }
 }
-
+function scrolltotop(){
+    window.scrollTo(0,0)
+}

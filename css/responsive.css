@@ -8,6 +8,9 @@
     html {
         font-size: 62.5%;
     }
+    .home-txt{
+        margin-top: 10rem;
+    }
 }
 
 @media screen and (max-width:830px) {
@@ -225,6 +228,9 @@
         border-radius: 0.6rem;
         padding: 1rem;
         margin: 1rem;
+    }
+    .top-btn{
+        visibility: visible;
     }
     .footer{
         font-size: 2rem;

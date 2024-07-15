@@ -12,9 +12,11 @@
         background-color: #1f1f21;
         color: #fff;
     }
-    #bar-icon{
+
+    #bar-icon {
         display: none;
     }
+
     .header {
         opacity: 0.3;
         position: fixed;
@@ -39,7 +41,7 @@
         animation: showlogo 2s ease 1;
     }
 
-  
+
 
     .logo:hover {
         transform: scale(1.1);
@@ -62,7 +64,7 @@
         color: #fff;
     }
 
-    .hide{
+    .hide {
         display: none;
     }
 
@@ -87,7 +89,7 @@
         animation: showcontactbtn 2s ease 1;
     }
 
-   
+
 
     .contact-btn:hover {
         background-color: #ffae00;
@@ -118,7 +120,7 @@
         animation: showimage 3s ease-out 1;
     }
 
-   
+
 
     .home-txt {
         padding-left: 10rem;
@@ -220,15 +222,12 @@
     }
 
     .s-icon:hover {
-        transform: scale(1.2) translateY(-.7rem);
+        transform: scale(1.2) translatez(10rem);
         transition: .3s ease;
         box-shadow: 0 0 25px #fff;
         border: none;
         opacity: 1;
     }
-
-   
-
 
     .about {
         width: 100%;
@@ -306,8 +305,6 @@
     .about-txt p {
         opacity: 0;
     }
-
-
 
     .edu {
         display: flex;
@@ -420,8 +417,75 @@
         text-align: center;
         font-size: 1.6rem;
     }
+    .project{
+        height: 150vh;
+        width: 100%;
+        overflow: hidden;
+    }
+    .heading-name {
+        padding: 3rem 0 0 0;
+        font-size: 4.5rem;
+        color: #ffae00;
+        font-weight: 600;
+        text-align: center;
+    }
 
-
+    .pro-list{
+        position: relative;
+        height: 80%;
+        width: 100%;
+    }
+    #p-1{
+        position: absolute;
+        right: 30%;
+        top: 0%;
+    }
+    #p-2{
+        position: absolute;
+        left: 30%;
+        top: 55%;
+    }
+    .li{
+        background-color: #ffffff2a;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        height: 50%;
+        margin: 3rem;
+        border-radius: 3rem;
+        opacity: .9;
+    }
+    .li img {
+        width: 50%;
+        height: 100%;
+        padding: 2rem;
+       object-fit: cover;
+       border-radius: 3rem;
+    }
+    .li .pro-text{
+        width: 50%;
+        height: 100%;
+        padding: 2rem;
+    }
+    .pro-text h1{
+        font-size: 4.7rem;
+        color: #ffae00;
+        font-weight: 600;
+    }
+    .pro-text p{
+        font-size: 2rem;
+        margin: 2rem 0 2.6rem;
+    }
+    .pro-text h2{
+        font-size: 2rem;
+        color: #ffae00;
+        font-weight:300;
+    }
+    .tech{
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+    }
 
     .contact {
         display: flex;
@@ -492,11 +556,27 @@
     #subject {
         animation: showabouttext 2s ease 1 forwards;
     }
-    .footer{
-        background-color: #0000003c;
-        text-align: center;
-        font-size: 1.5rem;
-        padding: 2rem;
+
+    .top-btn {
+        visibility: hidden;
+        position: relative;
     }
 
+    .t-btn {
+        border: 1px solid #ffffff7b;
+        background-color: #ffffff71;
+        border-radius: 5px;
+        font-size: 5rem;
+        padding: 1rem;
+        margin: 3rem;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
 
+    .footer {
+        background-color: #0000003c;
+        text-align: center;
+        font-size: 1rem;
+        padding: 1rem;
+    }
