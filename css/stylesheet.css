@@ -40,9 +40,6 @@
         font-weight: 600;
         animation: showlogo 2s ease 1;
     }
-
-
-
     .logo:hover {
         transform: scale(1.1);
     }
@@ -89,8 +86,6 @@
         animation: showcontactbtn 2s ease 1;
     }
 
-
-
     .contact-btn:hover {
         background-color: #ffae00;
         box-shadow: 0 0 25px #ffae00;
@@ -106,21 +101,18 @@
     }
 
     .home-img {
-        padding-left: 4rem;
-        padding-top: 10rem;
+        padding: 6rem; 
         width: 50%;
-        height: 95vh;
-
+        height: 85vh;
     }
 
     .home-img .hm-img {
-        width: 85%;
-        height: 85%;
+        filter: brightness(100%);
+        width: 100%;
+        height: 100%;
         object-fit: cover;
-        animation: showimage 3s ease-out 1;
+        animation: showimage 2s ease-out 1;
     }
-
-
 
     .home-txt {
         padding-left: 10rem;
@@ -247,7 +239,6 @@
         align-items: center;
         padding-right: 7rem;
     }
-
     .about-txt {
         display: flex;
         flex-direction: column;
@@ -259,7 +250,6 @@
     }
 
     .about-img .a-img {
-
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -431,19 +421,8 @@
     }
 
     .pro-list{
-        position: relative;
         height: 80%;
         width: 100%;
-    }
-    #p-1{
-        position: absolute;
-        right: 30%;
-        top: 0%;
-    }
-    #p-2{
-        position: absolute;
-        left: 30%;
-        top: 55%;
     }
     .li{
         background-color: #ffffff2a;
@@ -463,21 +442,25 @@
        border-radius: 3rem;
     }
     .li .pro-text{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
         width: 50%;
         height: 100%;
         padding: 2rem;
     }
     .pro-text h1{
-        font-size: 4.7rem;
+        text-align: center;
+        font-size: 3rem;
         color: #ffae00;
         font-weight: 600;
     }
     .pro-text p{
-        font-size: 2rem;
-        margin: 2rem 0 2.6rem;
+        font-size: 1.7rem;
+        margin: 1.5rem 0 2rem;
     }
     .pro-text h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: #ffae00;
         font-weight:300;
     }
@@ -486,7 +469,6 @@
         gap: 2rem;
         align-items: center;
     }
-
     .contact {
         display: flex;
         flex-direction: column;
@@ -494,7 +476,6 @@
         height: 80vh;
         width: 100%;
     }
-
 
     .contact h2 {
         height: 15%;
