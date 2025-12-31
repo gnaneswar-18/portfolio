@@ -4,10 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="/portfolio/css/animations.css">
-    <link rel="stylesheet" href="/portfolio/css/stylesheet.css">
-    <link rel="stylesheet" href="/portfolio/css/responsive.css">
+    <title>Portfolio | Satya Gnaneswar</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fonts and Icons -->
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
@@ -15,176 +17,314 @@
 </head>
 
 <body>
-    <header class="header">
-        <a href="#" class="logo">
-            <span>PORT</span>FOLIO
-        </a>
-        <ul class="navbar">
-            <li><a href="#home" class="active">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#project">Projects</a></li>
-            <li class="hide"><a href="#contact">Contact</a></li>
-        </ul>
-        <a href="#contact" class="contact-btn">Contact Me</a>
 
-        <i class="fa-solid fa-bars" id="bar-icon" onclick="shownav()"></i>
+    <!-- Header -->
+    <header class="header">
+        <a href="#" class="logo">PORT<span>FOLIO</span></a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
+
+    <!-- Home Section -->
     <section class="home" id="home">
-        <div class="home-txt">
-            <h3 class="h3-1">Hi</h3>
-            <h1 class="h1">I'm <span>Satya Gnaneswar</span>
-            </h1>
-            <h3 class="h3-1">A Frontend Developer</h3>
-            <p>A passionate engineering student with a strong foundation in web development and problem-solving. Continuously learning and exploring new technologies to build innovative and efficient solutions.</p>
-            <div class="home-btn">
-                <a href="https://drive.google.com/file/d/19U-TiPaQOgyT4Izm90p9Guw84PMWj00U/view?usp=drive_link"
-                    target="_blank" class="btn">Download CV</a>
-                 <a href="https://leetcode.com/u/gnaneswar12/" class="btn-1" target="_blank">Leetcode &#8599;</a>   
+        <div class="home-content">
+            <h3>Hi, I'm</h3>
+            <h1>Satya <span>Gnaneswar</span></h1>
+            <h3>Aspiring Software Developer</h3>
+            <p>A passionate engineering student with a strong foundation in web development and problem-solving.
+                Continuously learning and exploring new technologies to build innovative and efficient solutions.</p>
+
+            <div class="social-media">
+                <a href="#" style="--i:1;"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" style="--i:2;"><i class="fa-brands fa-github"></i></a>
+                <a href="#" style="--i:3;"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" style="--i:4;"><i class="fa-brands fa-instagram"></i></a>
             </div>
-            <div class="media-icon">
-                <i class="fa-brands fa-linkedin s-icon"></a></i>
-                <i class="fa-brands fa-square-github s-icon"></i>
-                <i class="fa-brands fa-square-twitter s-icon"></i>
-                <i class="fa-brands fa-square-instagram s-icon"></i>
-            </div>
+
+            <a href="https://drive.google.com/file/d/19U-TiPaQOgyT4Izm90p9Guw84PMWj00U/view?usp=drive_link"
+                target="_blank" class="btn">Download CV</a>
+            <a href="https://leetcode.com/u/gnaneswar12/" class="btn" target="_blank"
+                style="background:transparent; color: var(--main-color); margin-left:1rem; border: 2px solid var(--main-color);">Leetcode
+                <span>&#8599;</span></a>
         </div>
+
         <div class="home-img">
-            <img src="/portfolio/images/img.png" class="hm-img">
+            <img src="images/img.png" alt="Profile Picture">
         </div>
     </section>
+
+    <!-- About Section -->
     <section class="about" id="about">
         <div class="about-img">
-            <div class="img-box">
-                <img src="/portfolio/images/img.png" class="a-img">
-            </div>
+            <img src="images/img.png" alt="About Me">
         </div>
-        <div class="about-txt">
-            <h2>About Me</h2>
-            <h3>Frontend <span>Developer</span></h3>
-            <p>
-                I'm a BTech student and a passionate frontend developer, eager to craft seamless and engaging user experiences. 
-                Currently interning in frontend development, I specialize in building interactive and visually appealing interfaces using HTML, CSS, and JavaScript.  
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Aspiring Software <span>Developer</span></h3>
+            <p>I am a final-year B.Tech (CSE) student at SRM University with a strong academic foundation (GPA 8.8) and
+                a passion for solving complex problems. I have honed my skills in Full Stack Development (MERN) and Data
+                Structures & Algorithms, recently qualifying GATE 2025 with a solid rank.
                 <br><br>
-                My internship has given me hands-on experience in real-world projects, sharpening my problem-solving skills and deepening my understanding of modern web technologies. 
-                I love staying updated with the latest design trends and continuously improving my skills to create intuitive, high-performing web applications.  
-                <br><br>
-                Excited to explore new challenges and contribute to innovative digital solutions!
+                Beyond coding, I am a continuous learner who thrives in collaborative environments. I am now seeking a
+                challenging Software Development role where I can leverage my technical expertise and creative
+                problem-solving skills to build impactful solutions and drive business growth.
             </p>
         </div>
-    </section>    
-    <section class="edu" id="education">
-        <h1>Education</h1>
-        <div class="edu-cont">
-            <div class="edu-box">
-                <h4><i class="fa-solid fa-calendar-days edu-icon"></i><span>2022-present</span></h4>
-                <h3>B.tech-SRM University</h3>
-                <p>As a B.Tech student, college life is a mix of intense learning, collaborative projects, and unforgettable friendships, shaping our future careers.</p>
-            </div>
-            <div class="edu-box">
-                <h4><i class="fa-solid fa-calendar-days edu-icon"></i><span>2020-2022</span></h4>
-                <h3>Higher Secondary schooling</h3>
-                <p>Intermediate college provides a crucial transition, blending academic rigor with personal growth, preparing students for higher education and future careers.</p>
-            </div>
-            <div class="edu-box">
-                <h4><i class="fa-solid fa-calendar-days edu-icon"></i><span>2019-2020</span></h4>
-                <h3>Secondary school</h3>
-                <p>School provides a foundation of knowledge, nurturing teachers, and diverse extracurricular activities, fostering growth, friendships, and lifelong learning.</p>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="education" id="experience">
+        <h2 class="heading">Work <span>Experience</span></h2>
+
+        <div class="education-container">
+            <div class="education-box">
+                <i class="fa-solid fa-briefcase"></i>
+                <h3>Frontend Developer Intern | Edunet</h3>
+                <h4>June 2024 - July 2024</h4>
+                <p>Built and deployed responsive web pages using HTML, CSS, and JavaScript. Developed a personal
+                    portfolio project to showcase frontend development skills. Gained practical experience in writing
+                    clean, maintainable code and using modern development tools.</p>
             </div>
         </div>
     </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Journey</span></h2>
+
+        <div class="education-container">
+            <div class="education-box">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3>B.Tech (CSE) - SRM University</h3>
+                <h4>2022 - Present | GPA: 8.8/10.0</h4>
+                <p>Pursuing B.Tech in Computer Science Engineering.</p>
+            </div>
+
+            <div class="education-box">
+                <i class="fa-solid fa-school"></i>
+                <h3>Class 12th - AP Board</h3>
+                <h4>2020 - 2022 | Percentage: 97%</h4>
+                <p>Completed Intermediate education associated with Andhra Pradesh Board of Intermediate Education.</p>
+            </div>
+
+            <div class="education-box">
+                <i class="fa-solid fa-book-open"></i>
+                <h3>Class 10th - AP Board</h3>
+                <h4>2019 - 2020 | Percentage: 100%</h4>
+                <p>Completed Secondary Schooling associated with Board of Secondary Education Of Andhra Pradesh.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
     <section class="skills" id="skills">
-        <h2>My Skills</h2>
-        <div class="skill-box">
-            <div class="item">
-                <i class="fa-solid fa-c icon" style="color: #ffffff;"></i>
-                <span class="icon-name">C</span>
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skill-box">
+                <i class="devicon-c-plain"></i>
+                <span>C</span>
             </div>
-            <div class="item">
-                <i class="devicon-cplusplus-plain icon"></i>
-                <span class="icon-name">C++</span>
+            <div class="skill-box">
+                <i class="devicon-cplusplus-plain"></i>
+                <span>C++</span>
             </div>
-            <div class="item">
-                <i class="devicon-html5-plain-wordmark icon"></i>
-                <span class="icon-name">HTML</span>
+            <div class="skill-box">
+                <i class="devicon-java-plain"></i>
+                <span>Java</span>
             </div>
-            <div class="item">
-                <i class="devicon-css3-plain-wordmark icon"></i>
-                <span class="icon-name">CSS</span>
+            <div class="skill-box">
+                <i class="devicon-html5-plain"></i>
+                <span>HTML</span>
             </div>
-            <div class="item">
-                <i class="devicon-javascript-plain icon"></i>
-                <span class="icon-name">Javascript</span>
+            <div class="skill-box">
+                <i class="devicon-css3-plain"></i>
+                <span>CSS</span>
             </div>
-            <div class="item">
-                <i class="devicon-react-original-wordmark icon"></i>
-                <span class="icon-name">React Js</span>
+            <div class="skill-box">
+                <i class="devicon-javascript-plain"></i>
+                <span>JavaScript</span>
             </div>
-            <div class="item">
-                <i class="devicon-nodejs-plain-wordmark icon"></i>
-                <span class="icon-name">Node Js</span>
+            <div class="skill-box">
+                <i class="devicon-react-original"></i>
+                <span>React JS</span>
             </div>
-            <div class="item">
-                <i class="devicon-mysql-plain-wordmark icon"></i>
-                <span class="icon-name">My SQl</span>
+            <div class="skill-box">
+                <i class="devicon-redux-original"></i>
+                <span>Redux Toolkit</span>
             </div>
-            <div class="item">
-                <i class="devicon-express-original-wordmark icon"></i>
-                <span class="icon-name">Express Js</span>
+            <div class="skill-box">
+                <i class="devicon-tailwindcss-original"></i>
+                <span>Tailwind CSS</span>
+            </div>
+            <div class="skill-box">
+                <i class="devicon-nodejs-plain"></i>
+                <span>Node JS</span>
+            </div>
+            <div class="skill-box">
+                <i class="devicon-express-original"></i>
+                <span>Express JS</span>
+            </div>
+            <div class="skill-box">
+                <i class="devicon-mongodb-plain"></i>
+                <span>MongoDB</span>
+            </div>
+            <div class="skill-box">
+                <i class="devicon-mysql-plain"></i>
+                <span>MySQL</span>
+            </div>
+            <div class="skill-box">
+                <i class="devicon-git-plain"></i>
+                <span>Git</span>
+            </div>
+            <div class="skill-box">
+                <i class="devicon-github-original"></i>
+                <span>GitHub</span>
+            </div>
+            <div class="skill-box">
+                <i class="devicon-vscode-plain"></i>
+                <span>VS Code</span>
+            </div>
+            <div class="skill-box">
+                <i class="devicon-postman-plain"></i>
+                <span>Postman</span>
+            </div>
+            <div class="skill-box">
+                <i class="devicon-amazonwebservices-plain-wordmark"></i>
+                <span>AWS</span>
+            </div>
+            <div class="skill-box">
+                <i class="devicon-firebase-plain"></i>
+                <span>Firebase</span>
             </div>
         </div>
     </section>
-    <section class="project" id="project">
-        <h1 class="heading-name">Projects</h1>  
-    <div class="pro-list">
-        <div class="li">
-            <img src="images/p2.png" height="200px" width="400px">
-            <div class="pro-text">
-                <h1 class="tit">Amazon-Clone</h1>
-                <p class="desc">Created  an Amazon clone project using HTML and CSS to replicate key features like a homepage layout, product listings, and detail pages. Focus on responsive design, navigation, and styling to mimic Amazon's e-commerce platform</p>
-                <div class="tech">
-                    <h2>TECHNOLOGIES: </h2>
-                    <p>Html,Css</p>
-                </div>
-            </div>
-        </div>
-        <div class="li">    
-            <div class="pro-text">
-                <h1 class="tit">House Rental System</h1>
-                <p class="desc">Created house rental project using react where it is having key features like dynamic property listings, advanced search filters, interactive maps, and responsive design, providing users with seamless navigation and real-time property information.</p>
-                <div class="tech">
-                    <h2>TECHNOLOGIES: </h2>
-                    <p>React JS</p>
-                </div>
-            </div>
-            <img src="images/p1.png" alt="" height="200px" width="200px">
 
+    <!-- Projects Section -->
+    <section class="portfolio" id="project">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/p3.png" alt="KisanConnect">
+                <div class="portfolio-layer">
+                    <h4>KisanConnect</h4>
+                    <p>Full-stack platform connecting farmers and merchants. Features JWT auth, Cloudinary, Socket.IO
+                        messaging.</p>
+                    <h5>MERN Stack</h5>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/p4.png" alt="QuickCartify">
+                <div class="portfolio-layer">
+                    <h4>QuickCartify</h4>
+                    <p>MERN stack e-commerce with product listing, auth, and payment processing.</p>
+                    <h5>MERN Stack</h5>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/p5.png" alt="NewsApi">
+                <div class="portfolio-layer">
+                    <h4>NewsApi with React</h4>
+                    <p>React app fetching real-time news articles with category browsing and search.</p>
+                    <h5>React JS</h5>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/p2.png" alt="Amazon Clone">
+                <div class="portfolio-layer">
+                    <h4>Amazon HomePage Clone</h4>
+                    <p>Created an Amazon clone project using HTML and CSS to replicate key features like a homepage
+                        layout, product listings, and detail pages.</p>
+                    <h5>HTML, CSS</h5>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/p1.png" alt="House Rental System">
+                <div class="portfolio-layer">
+                    <h4>House Rental System</h4>
+                    <p>Created house rental project using React having key features like dynamic property listings,
+                        advanced search filters, and interactive maps.</p>
+                    <h5>React JS</h5>
+                </div>
+            </div>
         </div>
-    </div>
-</section> 
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="education" id="achievements">
+        <h2 class="heading">My <span>Achievements</span></h2>
+
+        <div class="education-container">
+            <div class="education-box">
+                <i class="fa-solid fa-trophy"></i>
+                <h3>Qualified GATE 2025</h3>
+                <h4>All India Rank: 22719</h4>
+                <p>Qualified in Graduate Aptitude Test in Engineering 2025.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
     <section class="contact" id="contact">
-        <h2>Contact Me</h2>
-        <div class="inp">
-            <input type="text" id="name" placeholder="Full Name">
-            <input type="email" id="email" placeholder="Email Address">
-            <input type="text" id="number" placeholder="Mobile Number">
-            <input type="text" id="subject" placeholder="Email Subject">
-            <textarea id="comment" placeholder="Your message" rows="10" cols="50"></textarea>
-        </div>
-        <div>
-            <button class="send-btn">Send Message</button>
-        </div>
+        <h2 class="heading">Contact <span>Me</span></h2>
 
-
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
     </section>
-    <div class="top-btn">
-        <i class="fa-solid fa-arrow-up t-btn" onclick="scrolltotop()"></i>
-    </div>
+
+    <!-- Footer -->
     <footer class="footer">
-        <p>copyright 2024  &#169 satya .All rights reserved</p>
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Satya Gnaneswar | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
     </footer>
+
     <script src="script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+
+        ScrollReveal({
+            reset: true,
+            distance: '80px',
+            duration: 2000,
+            delay: 200
+        });
+
+        ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+        ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form, .education-box, .skill-box', { origin: 'bottom' });
+        ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
+        ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
+    </script>
 </body>
 
 </html>
